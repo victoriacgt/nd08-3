@@ -1,0 +1,140 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.container{
+    width:100%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+.clearfix:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.blog{
+    margin-top:50px;
+    
+}
+
+.container .content {
+ width: 49%;
+   margin-right: 30px;
+}
+
+.blog .content img {
+    width:100%;
+    position: relative;
+    text-align: left;
+}
+
+.blog .content h3{
+    display: inline-block;
+    background: #668fff;
+    color: white;
+    text-transform: uppercase;
+    padding:4px 10px;
+    border-radius: 4px;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    padding: 5px 25px;
+}
+.blog .content .description h2{
+    font-size:40px;
+    font-weight: 700;
+    line-height:1.3;
+    text-transform: capitalize;
+    margin:25px 0;
+    text-align: left;
+}
+.blog .content .description img{
+    float: left;
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+}
+.blog .content .description h4{
+    float: left;
+    font-size:16px;
+    font-weight:500;
+    line-height:30px;
+    margin-left:5px;
+}
+.blog .content .description .fa-clock-o{
+    float: left;
+    line-height:30px;
+    color: #666;
+    margin-left:10px;
+    font-size:20px;
+}
+.blog .content .description .date{
+    float: left;
+    line-height:30px;
+    margin-left:10px;
+    color: #666;
+}
+.blog .content .description .fa-bolt{
+    float: right;
+    line-height:30px;
+    font-size:20px;
+    margin-left:10px;
+    color: #666;
+}
+.blog .content .description .likes{
+    float: right;
+    line-height:30px;
+    color: #666;
+}
+.blog .content .description p{
+    margin-top:20px;
+    font-size:20px;
+    line-height:1.5;
+    color: #666;
+    text-align: left;
+}
+
+.post-list{
+width: 49%;
+    flex-wrap: wrap;
+    flex-direction: column;
+   
+}
+.post-list .post{
+    border:1px dashed black;
+    text-align: left;
+    
+}
+
+.post-list .foto img{
+    width:20%;
+    float: left;
+}
+.post-list .description{
+ padding-left: 25px;
+    padding-top: 10px;
+}
+.post-list .description h2 {
+    font-size:20px;
+    font-weight: 700;
+}
+.post-list .description .fa-clock-o{
+    float: left;
+    line-height:30px;
+    color: #666;
+    margin-left:10px;
+    font-size:20px;
+    margin-top: 20px;
+}
+.post-list .description .date {
+     float: left;
+    line-height:30px;
+    margin-left:10px;
+    color: #666;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
